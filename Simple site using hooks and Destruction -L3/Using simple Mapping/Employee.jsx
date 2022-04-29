@@ -1,3 +1,4 @@
+// Making site using Mapping
 import React from "react";
 const Employee = (props) => {
     const { firstName, lastName, age } = props;
