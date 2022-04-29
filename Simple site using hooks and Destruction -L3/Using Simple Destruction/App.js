@@ -1,3 +1,4 @@
+// implementing simple destruction
 import React from "react";
 import "./App.css";
 import Employee from "./Employee";

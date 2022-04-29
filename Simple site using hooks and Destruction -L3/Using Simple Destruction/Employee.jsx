@@ -1,3 +1,4 @@
+// Making a sample site using props and Destruction
 import React from "react";
 const Employee = (props) => {
     const { firstName, lastName, age } = props;
