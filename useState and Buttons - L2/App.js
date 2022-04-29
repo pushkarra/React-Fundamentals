@@ -1,3 +1,4 @@
+// Making counter variable with increment and decrement operators
 import React from 'react';
 import "./App.css";
 import Counter from './Counter';
