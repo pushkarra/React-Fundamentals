@@ -14,9 +14,9 @@ function App() {
       {employees.map((employee) => (           // output generated
         <h1> {employee} </h1>
       ))}
-        {employees.forEach((employee) => (    //no output will be generated
+        {/* {employees.forEach((employee) => (    //no output will be generated
           <h1> {employee} </h1>
-        ))}
+        ))} */}
     </div>
   );
 }
