@@ -3,41 +3,7 @@ import React, { useState, useEffect } from "react";
 const Counterla = () => {
     const [count, setCount] = useState(0);
     const [count2, setCount2] = useState(0);
-
-
-    // componentDidMount
-    //   useEffect(() => {
-    //       console.log("we have run the useEffect");
-    //   } , []);
-
-
-    // componentDidUpdate
-    // useEffect(() => {
-    //     console.log("we have run the useEffect");
-    // }, [count]);
-
-
-    // componentDidUpdate for two counters but second counter will not affect the value
-    // useEffect(() => {
-    //     console.log("we have run the useEffect");
-    // }, [count , count2]);
-
-
-    // componentWillUnmount or you can say cleanup
-    // useEffect(() => {
-    //     console.log("we have run the useEffect");
-
-    //     return () => {
-    //     console.log("the return is being ran");
-    //     };
-    // }, []);
-
-
-    // no array useEffect
-    // useEffect(() => {
-    //     console.log("we have run the useEffect");
-    // });
-
+    
 
     // combining update useEffect with cleanup
     useEffect(() => {
