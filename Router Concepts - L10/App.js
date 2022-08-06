@@ -18,7 +18,7 @@ function App() {
       <button onClick={() => history("/contact")}> Contact Us </button>
       <button onClick={() => history("/home")}> Home Page </button>
       <Routes>
-        <Route exact path="/about" render={(props) => <About {...props} />} />
+        <Route exact path="/about" render={(props) => <About {...props} />} />                //dont know but this is not sgowing the content of about contact and home pages
         <Route exact path="/contact" render={(props) => <Contact {...props} />} />
         <Route exact path="/home" render={(props) => <Home {...props} />} />
 
